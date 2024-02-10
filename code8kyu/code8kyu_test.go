@@ -13,3 +13,10 @@ func TestInvertValues(t *testing.T) {
 	assert.Equal(t, []int(nil), Invert(nil))
 	assert.Equal(t, []int{0}, Invert([]int{0}))
 }
+
+func TestStringToNumber(t *testing.T) {
+	assert.Equal(t, 1234, StringToNumber("1234"))
+	assert.Equal(t, 605, StringToNumber("605"))
+	assert.Equal(t, 1405, StringToNumber("1405"))
+	assert.Equal(t, -7, StringToNumber("-7"))
+}
