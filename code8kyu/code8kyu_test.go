@@ -20,3 +20,11 @@ func TestStringToNumber(t *testing.T) {
 	assert.Equal(t, 1405, StringToNumber("1405"))
 	assert.Equal(t, -7, StringToNumber("-7"))
 }
+
+func TestNumberToString(t *testing.T) {
+	assert.Equal(t, "67", NumberToString(67))
+	assert.Equal(t, "79585", NumberToString(79585))
+	assert.Equal(t, "79585", NumberToString(79585))
+	assert.Equal(t, "3", NumberToString(3))
+	assert.Equal(t, "-1", NumberToString(-1))
+}
