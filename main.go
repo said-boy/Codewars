@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/said-boy/codewars/code6Kyu"
 )
 
-func main(){
-	a := []rune{'n','s','n','s','n','s','n','s','n','s'}
-	fmt.Println(code6Kyu.IsValidWalk(a))
+func main() {
+	fmt.Println("Hello friends, welcome to my source code. This is the code I wrote to solve challenges on codewars.")
+	fmt.Println("Username codewars : said-boy")
 }
